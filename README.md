@@ -16,7 +16,7 @@ O mesmo pipeline de pré-processamento é aplicado a **duas tarefas físicas dif
 
 No final, as duas abordagens (CNN e Transformer) são comparadas por **AUC** e por **rejeição de background a eficiência de sinal fixa**, seguido de uma análise de **interpretabilidade**: *saliency maps* para a CNN e pesos de atenção para o Transformer.
 
-> O notebook foi desenhado para rodar em **CPU**, em um computador comum, sem GPU — por isso usa sub-amostras dos datasets completos e redes pequenas.
+> O notebook foi desenhado para rodar em **CPU**, em um computador comum, sem GPU, por isso usa sub-amostras dos datasets completos e redes pequenas.
 
 ## Estrutura do notebook
 
@@ -33,7 +33,7 @@ No final, as duas abordagens (CNN e Transformer) são comparadas por **AUC** e p
 
 ## Sobre a pasta `data/`
 
-Essa pasta recebe os dados baixados/gerados ao rodar o notebook (cache do `energyflow` e os arquivos do Top Tagging Reference Dataset, que somam cerca de 1,7 GB). Por causa do tamanho, esses arquivos **não são versionados no repositório** — a pasta serve apenas como destino local para quem for reproduzir o notebook.
+Essa pasta recebe os dados baixados/gerados ao rodar o notebook (cache do `energyflow` e os arquivos do Top Tagging Reference Dataset, que somam cerca de 1,7 GB). Por causa do tamanho, esses arquivos **não são versionados no repositório**, a pasta serve apenas como destino local para quem for reproduzir o notebook.
 
 ## Referências
 
@@ -44,4 +44,4 @@ Essa pasta recebe os dados baixados/gerados ao rodar o notebook (cache do `energ
 
 ## Contexto
 
-Projeto desenvolvido para a eletiva **Aprendizado de Máquina**, do Programa de Pós-Graduação em Física da **Universidade do Estado do Rio de Janeiro (UERJ)**.
+Projeto desenvolvido para a eletiva **Aprendizado de Máquina**, do Programa de Pós-Graduação em Física (PPGF) da **Universidade do Estado do Rio de Janeiro (UERJ)**.
