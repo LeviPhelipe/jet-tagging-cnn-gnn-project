@@ -31,10 +31,6 @@ No final, as duas abordagens (CNN e Transformer) são comparadas por **AUC** e p
 9. Interpretabilidade: saliency maps (CNN) e pesos de atenção (Transformer)
 10. Conclusões
 
-## Sobre a pasta `data/`
-
-Essa pasta recebe os dados baixados/gerados ao rodar o notebook (cache do `energyflow` e os arquivos do Top Tagging Reference Dataset, que somam cerca de 1,7 GB). Por causa do tamanho, esses arquivos **não são versionados no repositório**, a pasta serve apenas como destino local para quem for reproduzir o notebook.
-
 ## Referências
 
 - Komiske, Metodiev & Thaler — dataset e biblioteca **EnergyFlow**: https://energyflow.network/
